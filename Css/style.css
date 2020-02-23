@@ -1,23 +1,74 @@
 body
-{
-    margin: 0;
+{   
+     background-color: #1C2340;
+     margin: 0;
+     text-align: center;
 }
-
 .top-container
 {
-    background-color: aqua;
-}  
+    background-color: #1C2340;
+    height: 36rem;
+} 
+
+h1
+{
+    font-family: sans-serif;   
+    line-height: 1;
+    letter-spacing: 2rem;
+    font-size: 1rem; 
+    color: #DFDFEF;
+    margin: 8rem auto 0 auto;
+
+}
+.top-para
+{
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(137, 151, 206);
+    line-height: .8;
+    font-size:10rem;  
+    margin:3rem auto 5rem auto;  
+}
+
+.hand-controller
+{
+    padding-top: 1rem;
+    display: inline-block;
+}
+ 
 
 
 .middle-container
 {
-    background-color: rgb(0, 255, 21);
-    width: 200;
-    height: 200;
+    background-color: #44698C;
+    height: 1000px;
+    margin-top:2rem;
 }  
 
+h2
+{
+    font-size: 4rem;
+    font-family: 'B612', serif;
+    color:#DFDFEF; 
+    padding-top: 3rem;
+}
+
+.whatcandolist
+{
+    list-style-type: none;
+    margin-top: -8rem;
+    font-size: 2rem;
+    font-family: 'B612', serif;
+    color: #A6B6D1;
+}
+
+.img-controller
+{
+    transform: rotate(-30deg);
+    padding-right: 10rem;
+    margin-right: 50rem;
+}
 
 .bottom-container
 {
-    background-color: rgb(230, 255, 119);
+    background-color: #283D54;
 }  
